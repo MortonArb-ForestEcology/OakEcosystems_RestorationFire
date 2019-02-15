@@ -44,7 +44,7 @@ dir.prism <- "~/Desktop/SpatialData/PRISM/monthly"
 var.prism <- c("ppt", "tmax", "tmin", "tmean", "vpdmin", "vpdmax")
 
 mos <- stringr::str_pad(1:12, width=2, side="left", pad=0)
-yrs.met <- 1985:2017 # Just going ahead and specifying the year range we want
+yrs.met <- 1895:2017 # Just going ahead and specifying the year range we want
 
 met.all <- data.frame(site  = rep(site.loc$Site, each=length(yrs.met)*length(mos)),
                       lat   = rep(site.loc$Lat, each=length(yrs.met)*length(mos)),
