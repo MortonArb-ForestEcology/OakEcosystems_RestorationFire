@@ -1,0 +1,5 @@
+"point.ID","PlotID","Lat","Long","PlotName","Treatment","burned","thinned","poly.ID","Id","Project","ThinTech","BlazedSpp","Year","PrjctStat","Pictures","Shape_Length","Shape_Area","Year.Finish"
+1,"OEM1",41.81501617,-88.04354152,"Morton-control","control","no","no",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,"OEM3",41.8166932,-88.05647243,"Morton_TB","thin.burn","yes","yes",7,8," "," "," ","2008-09","Removed 4 out of 5 understory trees, all non-oak/hickory "," ",1480.5311576865,82536.9109826294,2009
+3,"OEM0",41.81386528,-88.04339352,"Morton-annual-burn","brun.annual","yes","no",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,"OEM2",41.82366678,-88.04721742,"Morton-Regular-burn","burn","yes","no",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
