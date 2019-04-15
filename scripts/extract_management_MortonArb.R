@@ -69,10 +69,10 @@ dim(oer.soils)
 # -------------------------------
 # Getting Burn Info
 # -------------------------------
-path.burn <- "/Volumes/GIS/Collections/MarKGIS/Management Unit Plans/Controlled Burn Areas.gdb"
+path.burn <- "/Volumes/GIS/Collections/Natural Resources Management/Research/Controlled Burn Areas.gdb"
 burn.layers <- ogrListLayers(path.burn)
 
-burn <- readOGR(file.path(path.burn), "Completed_Burn_Areas")
+burn <- readOGR(file.path(path.burn), "Completed_Burn_Areas_Final_4_5_19")
 burn$Burn_Date <- as.Date(burn$Burn_Date)
 burn$Year <- lubridate::year(burn$Burn_Date)
 burn$Month <- lubridate::month(burn$Burn_Date)
